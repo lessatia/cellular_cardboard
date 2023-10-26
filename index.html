@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <title>example.com</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header_content">
+        <div id="logo" class="menu_logo">
+          <img
+            class="main_logo"
+            src="./images/logo_rekast.png"
+            alt="логотип фабрики сотового картона"
+          />
+        </div>
+        <div class="main_menu">
+          <ul class="menu_list">
+            <li class="menu_item">
+              <a class="menu_item_link" href="#prices">Цены и услуги</a>
+            </li>
+            <li class="menu_item">
+              <a class="menu_item_link" href="#products">Продукция</a>
+            </li>
+            <li class="menu_item">
+              <a class="menu_item_link" href="#using">Применение</a>
+            </li>
+              <li class="menu_item">
+              <a class="menu_item_link" href="#contacts">Контакты</a>
+            </li>
+             <li class="menu_item">
+              <a class="menu_item_link" href="#the_team">Наша команда</a>
+            </li>
+          </ul>
+          <ul class="contact_list">
+            <li class="contact_item"><a href="mailto:tvalynskaya@gmail.com" class="contact_item_link">tvalynskaya@gmail.com</a></li>
+          <li class="contact_item"><a href="https://telegram.im/@Antosiana" class="contact_item_link">+375 29 1535074</a></li>       
+           </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section_1">
+        <h1 class="h1">Изделия любой формы</h1>
+      </section>
+      <section class="section_2">
+        <h2 class="h2" id="using">Решим ваши задачи</h2>
+        <div class="problem_text">
+          <p class="paragraph_text">
+            Если задачи бизнеса подразумевают раскройку нестандартных форм, 
+            это делается по индивидуальным чертежам с помощью специальных высечных устройств или 
+            высокоточного режущего оборудования.
+          </p>
+          <p class="paragraph_text" id="prices">
+            Благодаря ячеистой структуре сотокартон обладает высокой прочностью и жесткостью.
+          </p>
+          <p class="paragraph_text">
+            Сотокартон обладает высокой способностью поглощать энергию удара. 
+            Поэтому такой материал отлично подходит для упаковки хрупких и ценных товаров.
+          </p>
+          <p class="paragraph_text"  >
+            Цена за метр/кв —  
+            <strong>от 3 до 33 BYN</strong>
+          </p>
+        </div>
+        <div class="section_2 button_section">
+          <button class="button button__order ">
+            Рассчитать
+          </button>
+          <button class="button button__question ">
+            Заказать звонок
+          </button>
+        </div>
+      </section>
+      <section_3 id="products">
+        <div class="sticker"><img src="./images/product_1.png" alt="ячеистый каторн разных форм и размеров" ></div>
+      </section_3>
+      <section class="section_3">
+        <h2 class="h2" id="contacts">Контакты</h2>
+        <div class="problem_text"><h2>Заказать обратный звонок</h2>
+        <p class="paragraph_text ">Оставьте свои контактные данные&nbsp;— и&nbsp;мы&nbsp;обязательно
+           свяжемся с&nbsp;вами, чтобы обсудить ваши потребности, детали проекта и&nbsp;особенности 
+           будущего заказа.</p>
+            <form class="form_contact ">
+             <input class="input_place" type="text" name="name" placeholder="Имя" required="true">
+           <input class="input_place" type="tel" name="phone" placeholder="Телефон" required="true">
+            <input class="input_place" type="email" name="email" placeholder="Эл. почта " required="true">
+          </form>
+            <button class="button button__question">Отправить</button>
+            </div>
+                  </section>
+      </main>
+  </body>
+</html>
